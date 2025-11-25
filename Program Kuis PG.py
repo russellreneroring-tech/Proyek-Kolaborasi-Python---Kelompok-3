@@ -17,4 +17,21 @@ questions = [
                     "C. Central Print Unit", 
                     "D. Computer Power Unit"],
         "answer": "A"
+     },
+    {
+        "question": "2. Tipe data apakah yang digunakan untuk bilangan desimal?",
+        "options": ["A. int", 
+                    "B. float", 
+                    "C. string", 
+                    "D. boolean"],
+        "answer": "B"
     },
+    {
+        "question": "3. Bahasa pemrograman manakah yang paling mudah untuk pemula?",
+        "options": ["A. Python", 
+                    "B. Assembly", 
+                    "C. C++", 
+                    "D. Java"],
+        "answer": "A"
+    }
+]
