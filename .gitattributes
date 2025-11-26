@@ -1,4 +1,3 @@
-# Loop setiap pertanyaan
 for q in questions:
     print(q["question"])
     for opt in q["options"]:
@@ -13,7 +12,6 @@ for q in questions:
         print(f"Salah! Jawaban yang benar adalah {q['answer']}\n")
 
 
-# Hasil akhir
 print("===== HASIL AKHIR =====")
 print(f"Skor kamu: {score} dari {len(questions)}")
 
