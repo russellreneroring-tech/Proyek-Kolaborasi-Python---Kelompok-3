@@ -8,8 +8,7 @@ print("Jawab pertanyaan dengan mengetik A, B, C, atau D\n")
 score = 0
 
 
-# Daftar pertanyaan (dictionary)
-questions = [
+# Daftar pertanyaan (dictionary)uestions = [
     {
         "question": "1. Apa singkatan dari CPU?",
         "options": ["A. Central Processing Unit", 
