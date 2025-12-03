@@ -10,12 +10,14 @@ score = 0
 
 # Daftar pertanyaan (dictionary)
 questions = [{
+
         "question": "1. Apa singkatan dari CPU?",
         "options": ["A. Central Processing Unit", 
                     "B. Control Primary Unit", 
                     "C. Central Print Unit", 
                     "D. Computer Power Unit"],
         "answer": "A"
+
      },
     {
         "question": "2. Tipe data apakah yang digunakan untuk bilangan desimal?",
@@ -32,7 +34,7 @@ questions = [{
                     "C. C++", 
                     "D. Java"],
         "answer": "A"
-    } 
+    }
 ]
 for q in questions:
     print(q["question"])
