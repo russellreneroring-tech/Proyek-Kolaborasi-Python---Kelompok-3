@@ -51,3 +51,52 @@ Ikuti langkah berikut untuk memulai kuis:
 
     bash
    Program Kuis PG.py
+4.  Program akan berjalan di terminal. Masukkan jawaban Anda dengan mengetik huruf *A, **B, **C, atau **D* lalu tekan *Enter*.
+
+
+## 5\. Dokumentasi Teknis
+
+Bagian ini menjelaskan alur logika sistem yang digunakan dalam program.
+
+### Alur Kerja (Flowchart)
+
+Berikut adalah diagram alur logika program dari awal hingga akhir:
+
+mermaid
+graph TD
+    A([Mulai]) --> B[Inisialisasi Score = 0]
+    B --> C{Apakah masih ada<br/>pertanyaan di list?}
+    C -- Ya --> D[Tampilkan Pertanyaan & Opsi]
+    D --> E[/Input Jawaban User/]
+    E --> F{Cek Jawaban}
+    
+    F -- Benar --> G[Tampilkan 'Benar!']
+    G --> H[Score + 1]
+    H --> C
+    
+    F -- Salah --> I[Tampilkan 'Salah!']
+    I --> J[Tampilkan Jawaban Benar]
+    J --> C
+    
+    C -- Tidak --> K[Tampilkan Skor Akhir]
+    K --> L{Cek Total Skor}
+    
+    L -- Sempurna --> M[Pesan: Keren!]
+    L -- Sedang --> N[Pesan: Bagus!]
+    L -- Rendah --> O[Pesan: Jangan Menyerah!]
+    
+    M --> P([Selesai])
+    N --> P
+    O --> P
+
+
+### Penjelasan Logika Sistem:
+
+1.  *Inisialisasi:* Program dimulai dengan menetapkan variabel score ke 0.
+2.  *Data Pertanyaan:* Pertanyaan disimpan dalam variabel questions, yang merupakan List of Dictionaries. Setiap dictionary memuat teks pertanyaan, list opsi jawaban, dan satu karakter jawaban yang benar.
+3.  *Iterasi (Looping):* Program menggunakan for loop untuk memproses setiap pertanyaan satu per satu.
+4.  *Input & Normalisasi:* Input pengguna diambil menggunakan fungsi input(). Metode .strip().upper() digunakan untuk menghapus spasi yang tidak disengaja dan mengubah huruf menjadi kapital agar cocok dengan kunci jawaban.
+5.  *Kondisional (Branching):*
+      * Jika input cocok dengan kunci jawaban, program mencetak "Benar" dan menambahkan nilai score.
+      * Jika tidak, program mencetak "Salah" dan memberi tahu jawaban yang seharusnya.
+6.  *Output Akhir:* Setelah loop selesai, program menampilkan total skor dan menggunakan blok if-elif-else untuk memberikan pesan penutup yang sesuai dengan kinerja pengguna.
