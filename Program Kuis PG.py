@@ -56,4 +56,4 @@ if score == len(questions):
 elif score >= 2:
     print("Bagus! Kamu sudah cukup paham.")
 else:
-print("Jangan menyerah, terus belajar ya!")
+    print("Jangan menyerah, terus belajar ya!")
