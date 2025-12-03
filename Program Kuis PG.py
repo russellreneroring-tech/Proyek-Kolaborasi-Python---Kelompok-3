@@ -8,20 +8,16 @@ print("Jawab pertanyaan dengan mengetik A, B, C, atau D\n")
 score = 0
 
 
-<<<<<<< Updated upstream
-# Daftar pertanyaan (dictionary)uestions = [
-=======
 # Daftar pertanyaan (dictionary)
-questions = [
->>>>>>> Stashed changes
-    {
+questions = [{
+
         "question": "1. Apa singkatan dari CPU?",
         "options": ["A. Central Processing Unit", 
                     "B. Control Primary Unit", 
                     "C. Central Print Unit", 
                     "D. Computer Power Unit"],
         "answer": "A"
-<<<<<<< Updated upstream
+
      },
     {
         "question": "2. Tipe data apakah yang digunakan untuk bilangan desimal?",
@@ -40,9 +36,7 @@ questions = [
         "answer": "A"
     }
 ]
-=======
-    },
-    for q in questions:
+for q in questions:
     print(q["question"])
     for opt in q["options"]:
         print(opt)
@@ -65,4 +59,3 @@ elif score >= 2:
     print("Bagus! Kamu sudah cukup paham.")
 else:
     print("Jangan menyerah, terus belajar ya!")
->>>>>>> Stashed changes
