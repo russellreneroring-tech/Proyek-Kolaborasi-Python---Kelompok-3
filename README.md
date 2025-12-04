@@ -54,7 +54,7 @@ Ikuti langkah berikut untuk memulai kuis:
 4.  Program akan berjalan di terminal. Masukkan jawaban Anda dengan mengetik huruf *A, **B, **C, atau **D* lalu tekan *Enter*.
 
 
-## 5\. Dokumentasi Teknis
+## 5. Dokumentasi Teknis
 
 Bagian ini menjelaskan alur logika sistem yang digunakan dalam program.
 
@@ -62,7 +62,6 @@ Bagian ini menjelaskan alur logika sistem yang digunakan dalam program.
 
 Berikut adalah diagram alur logika program dari awal hingga akhir:
 
-```mermaid
 graph TD
     A([Mulai]) --> B[Inisialisasi Score = 0]
     B --> C{Apakah masih ada<br/>pertanyaan di list?}
@@ -88,7 +87,6 @@ graph TD
     M --> P([Selesai])
     N --> P
     O --> P
-```
 
 ### Penjelasan Logika Sistem:
 
@@ -100,3 +98,11 @@ graph TD
       * Jika input cocok dengan kunci jawaban, program mencetak "Benar" dan menambahkan nilai score.
       * Jika tidak, program mencetak "Salah" dan memberi tahu jawaban yang seharusnya.
 6.  *Output Akhir:* Setelah loop selesai, program menampilkan total skor dan menggunakan blok if-elif-else untuk memberikan pesan penutup yang sesuai dengan kinerja pengguna.
+
+## 6. Daftar Kontributor Tabel
+
+|No|| Nama |               | NIM |        |Link Akun Git |
+
+| 1 | **Russell Roring**   | 250211060125 | [github.com/russellreneroring-tech](https://github.com/russellreneroring-tech) |
+| 2 | **Windi Sugala**     | 250211060136 | [github.com/sugalawindi-06](https://github.com/sugalawindi-06) |
+| 3 | **Kesya Mokodompit** | 250211060023 | [github.com/KesyaMkdpt0102](https://github.com/KesyaMkdpt0102) |
