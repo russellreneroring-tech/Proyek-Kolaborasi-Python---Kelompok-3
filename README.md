@@ -101,8 +101,8 @@ graph TD
 
 ## 6. Daftar Kontributor Tabel
 
-|No|| Nama |               | NIM |        |Link Akun Git |
+|No | Nama                 | NIM |        |Link Akun Git |
 
-| 1 | **Russell Roring**   | 250211060125 | [github.com/russellreneroring-tech](https://github.com/russellreneroring-tech) |
-| 2 | **Windi Sugala**     | 250211060136 | [github.com/sugalawindi-06](https://github.com/sugalawindi-06) |
-| 3 | **Kesya Mokodompit** | 250211060023 | [github.com/KesyaMkdpt0102](https://github.com/KesyaMkdpt0102) |
+| 1 | **Russell Roring**   | 250211060125 | (https://github.com/russellreneroring-tech) |
+| 2 | **Windi Sugala**     | 250211060136 | (https://github.com/sugalawindi-06) |
+| 3 | **Kesya Mokodompit** | 250211060023 | (https://github.com/KesyaMkdpt0102) |
