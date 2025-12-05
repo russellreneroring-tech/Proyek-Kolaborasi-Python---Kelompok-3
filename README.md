@@ -19,7 +19,6 @@ Aplikasi ini cocok digunakan sebagai materi pembelajaran dasar logika pemrograma
 
 *Evaluasi Akhir: Memberikan pesan penyemangat yang berbeda-beda tergantung pada perolehan skor akhir pengguna.
 
-<<<<<<< HEAD
 
 ## 3. Panduan Instalasi
 
